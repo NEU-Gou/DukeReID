@@ -1,6 +1,6 @@
 ![alt text](https://github.com/NEU-Gou/DukeReID/blob/master/DukeReID.jpg "DukeReID")
 # DukeMTMC4ReID
-DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based on [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/). We use a fast state-of-the-art [person detector](https://bitbucket.org/rodrigob/doppia) for accurate detections. After verified by the ground truth, for each identity, we uniformly sample 5 ?good? bounding boxes in each available camera, while retaining all the ?FP? bounding boxes in the corresponding frames. To summarize, the relevant statistics of the pro- posed DukeMTMC4ReID dataset are provided below:
+DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based on [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/). We use a fast state-of-the-art [person detector](https://bitbucket.org/rodrigob/doppia) for accurate detections. After verified by the ground truth, for each identity, we uniformly sample 5 "good" bounding boxes in each available camera, while retaining all the "FP" bounding boxes in the corresponding frames. To summarize, the relevant statistics of the proposed DukeMTMC4ReID dataset are provided below:
 * Images corresponding to 1,852 people existing across all the 8 cameras
 * 1,413 unique identities with 22,515 bounding boxes that appear in more than one camera (valid identities)
 * 439 distractor identities with 2,195 bounding boxes that appear in only one camera, in addition to 21,551 ?FP? bounding boxes from the person detector
@@ -16,14 +16,14 @@ DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based o
 |  # distractors  |   439  |   16   |   28  |   1   |   6   |   0   |    9   |   0   |  379  |
 |   # probe ids   |   706  |   403  |  373  |  200  |  168  |  209  |   358  |  243  |  284  |
 
-
+More details and benchmark results can be found in this [paper] (http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/papers/MengranGou_CVPRW17.pdf)
 ### How to use
 1. Clone or download this repo
 2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeReID.zip) and extract it within the same folder of the code
 3. Download the pre-computed [feature](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/feature/feature_DukeReID_LOMO_6patch.mat) 
 4. run script_test.m to parsing the data and evaluate it with pre-computed feature
 
-### Reference
+### References
 ```
 @InProceedings{gou2017dukemtmc4reid,
   author = {Gou, Mengran and Karanam, Srikrishna and Liu, Wenqian and Camps, Octavia and Radke, Richard J.},
