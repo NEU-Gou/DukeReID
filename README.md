@@ -16,7 +16,7 @@ DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based o
 |  # distractors  |   439  |   16   |   28  |   1   |   6   |   0   |    9   |   0   |  379  |
 |   # probe ids   |   706  |   403  |  373  |  200  |  168  |  209  |   358  |  243  |  284  |
 
-More details and benchmark results can be found in this [paper] (http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/papers/MengranGou_CVPRW17.pdf)
+More details and benchmark results can be found in this [paper](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/papers/MengranGou_CVPRW17.pdf)
 ### How to use
 1. Clone or download this repo
 2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeReID.zip) and extract it within the same folder of the code
