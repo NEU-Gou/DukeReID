@@ -20,15 +20,15 @@ More details and benchmark results can be found in this [paper](http://robustsys
 ### How to use
 1. Clone or download this repo
 2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeReID.zip) and extract it within the same folder of the code
-    - p0001_c5_f0000051246_1.jpg \s
-        bounding box of person 0001 in camera 5 at frame 51246
-    - partition.
-        idx_train   - index of train samples
-        idx_test    - index of test samples
-        idx_probe   - index of probe samples in test 
-        idx_gallery - index of gallery samples in test
-        ix_pos_pair - index of pre-generated positive pairs
-        ix_neg_pair - index of pre-generated negtive pairs
+    - p0001_c5_f0000051246_1.jpg  
+        bounding box of person 0001 in camera 5 at frame 51246  
+    - partition.  
+        idx_train   - index of train samples  
+        idx_test    - index of test samples  
+        idx_probe   - index of probe samples in test  
+        idx_gallery - index of gallery samples in test  
+        ix_pos_pair - index of pre-generated positive pairs  
+        ix_neg_pair - index of pre-generated negtive pairs  
         cam_pairs   - [probe camera, gallery camera] (0 means all the other cameras)
 
 3. Download the pre-computed [feature](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/feature/feature_DukeReID_LOMO_6patch.mat) 
