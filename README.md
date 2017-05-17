@@ -20,7 +20,7 @@ More details and benchmark results can be found in this [paper](http://robustsys
 ### How to use
 1. Clone or download this repo
 2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeReID.zip) and extract it within the same folder of the code
-    - p0001_c5_f0000051246_1.jpg
+    - p0001_c5_f0000051246_1.jpg \s
         bounding box of person 0001 in camera 5 at frame 51246
     - partition.
         idx_train   - index of train samples
