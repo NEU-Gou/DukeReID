@@ -19,7 +19,7 @@ DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based o
 More details and benchmark results can be found in this [paper](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/papers/MengranGou_CVPRW17.pdf)
 ### How to use
 1. Clone or download this repo
-2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeReID.zip) and extract it within the same folder of the code
+2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeMTMC4ReID.zip) and extract it within the same folder of the code
     - p0001_c5_f0000051246_1.jpg  
         bounding box of person 0001 in camera 5 at frame 51246  
     - partition.  
