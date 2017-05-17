@@ -54,17 +54,4 @@ If you use this dataset, please also cite the original DukeMTMC dataset accordin
 }
 ```
 ### License
-The DukeMTMC4ReID dataset is made available under the Open Data Commons Attribution [License](https://opendatacommons.org/licenses/by/1.0/) and for academic use only.
-
-READABLE SUMMARY OF Open Data Commons Attribution License 
-```
-You are free:
-
-    To Share: To copy, distribute and use the database.
-    To Create: To produce works from the database.
-    To Adapt: To modify, transform and build upon the database.
-
-As long as you:
-
-    Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.
-```
+Please refer to the license file for [DukeMTMC4ReID](https://github.com/NEU-Gou/DukeReID/blob/master/LICENSE_DukeMTMC4ReID.txt) and [DukeMTMC](https://github.com/NEU-Gou/DukeReID/blob/master/LICENSE_DukeMTMC.txt)
