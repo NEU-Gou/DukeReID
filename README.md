@@ -1,4 +1,5 @@
-![alt text](https://github.com/NEU-Gou/DukeReID/blob/master/DukeReID.jpg "DukeReID")
+<span style="color:red">[NEW]</span>
+ Benchmark evalution code-base is released! Please refer to this [repo](https://github.com/RSL-NEU/person-reid-benchmark) for more details. 
 # DukeMTMC4ReID
 DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based on [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/). We use a fast state-of-the-art [person detector](https://bitbucket.org/rodrigob/doppia) for accurate detections. After verified by the ground truth, for each identity, we uniformly sample 5 "good" bounding boxes in each available camera, while retaining all the "FP" bounding boxes in the corresponding frames. To summarize, the relevant statistics of the proposed DukeMTMC4ReID dataset are provided below:
 * Images corresponding to 1,852 people existing across all the 8 cameras
