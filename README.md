@@ -1,3 +1,5 @@
+[NEW] The DukeMTMC dataset is taken down due to privacy concerns... Will reopen when it's clear. 
+
 <span style="color:red">[NEW]</span>
  Benchmark evalution code-base is released! Please refer to this [repo](https://github.com/RSL-NEU/person-reid-benchmark) for more details. 
 # DukeMTMC4ReID
@@ -5,7 +7,7 @@ DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based o
 * Images corresponding to 1,852 people existing across all the 8 cameras
 * 1,413 unique identities with 22,515 bounding boxes that appear in more than one camera (valid identities)
 * 439 distractor identities with 2,195 bounding boxes that appear in only one camera, in addition to 21,551 ?FP? bounding boxes from the person detector
-* The size of the bounding box varies from 72×34 pixels to 415×188 pixels
+* The size of the bounding box varies from 72Ã—34 pixels to 415Ã—188 pixels
 
 |                 |  Total |  cam1  |  cam2 |  cam3 |  cam4 |  cam5 |  cam6  |  cam7 |  cam8 |
 |:---------------:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|:------:|:-----:|:-----:|
@@ -20,7 +22,7 @@ DukeMTMC4ReID dataset is new large-scale real-world person re-id dataset based o
 More details and benchmark results can be found in this [paper](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/papers/MengranGou_CVPRW17.pdf)
 ### How to use
 1. Clone or download this repo
-2. Download the dataset from [here](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/dataset/DukeMTMC4ReID.zip) and extract it within the same folder of the code
+2. ~~Download the dataset from [here](http://robustsystems.coe.neu.edu) and extract it within the same folder of the code~~
     - p0001_c5_f0000051246_1.jpg  
         bounding box of person 0001 in camera 5 at frame 51246  
     - partition.  
